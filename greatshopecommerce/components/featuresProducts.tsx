@@ -46,7 +46,7 @@ function featuresProducts() {
                       </CardContent>
                       <div className='flex justify-center gap-4 px-8'>
                         <h3 className='text-lg font-bold'>{product.name}</h3>
-                        <p className='text-gray-600'>${product.price}</p>
+                        <p className='text-gray-400'>${product.price}</p>
                       
                       </div>
                     </Card>
