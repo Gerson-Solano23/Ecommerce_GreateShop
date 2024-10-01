@@ -43,7 +43,7 @@ function carouselBanner() {
     <Carousel className='w-full max-w-4xl mx-auto'
         plugins={[
             Autoplay({
-                delay: 3000,
+                delay: 3500,
             })
         ]}
     >
