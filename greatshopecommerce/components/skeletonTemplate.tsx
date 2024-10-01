@@ -3,7 +3,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 type skeletonProps = {
     grid: number;
 }
-function skeleton(props: skeletonProps) {
+function SkeletonTemplate(props: skeletonProps) {
     const {grid} = props;
   return (
     Array.from({length: grid}).map((_, index)=>(
@@ -19,4 +19,4 @@ function skeleton(props: skeletonProps) {
   )
 }
 
-export default skeleton
+export default SkeletonTemplate

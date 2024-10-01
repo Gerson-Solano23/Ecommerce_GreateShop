@@ -36,7 +36,7 @@ export const dataInfoCarousel = [
     
 ]
 
-function carouselBanner() {
+function CarouselBanner() {
     const router = useRouter();
   return (
     <div className='bg-teal-600 dark:bg-teal-900'>
@@ -68,4 +68,4 @@ function carouselBanner() {
   )
 }
 
-export default carouselBanner
+export default CarouselBanner

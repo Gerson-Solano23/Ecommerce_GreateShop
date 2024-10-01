@@ -2,7 +2,7 @@ import React from 'react'
 import { Popover,PopoverContent, PopoverTrigger } from './ui/popover'
 import { Menu } from 'lucide-react'
 import Link from "next/link"
-function mobileItems() {
+function MobileItems() {
   return (
     <Popover>
         <PopoverTrigger>
@@ -21,4 +21,4 @@ function mobileItems() {
   )
 }
 
-export default mobileItems
+export default MobileItems

@@ -1,10 +1,10 @@
 "use client";
 import React from 'react'
 import { Twitter, Instagram, Facebook } from 'lucide-react';
-import { useRouter } from "next/navigation";
+//import { useRouter } from "next/navigation";
 
 function Footer() {
-  const router = useRouter();
+  //const router = useRouter();
   return (
     <footer className="bg-gray-900 text-white py-8 mt-auto">
         <div className="container mx-auto flex flex-col items-center">

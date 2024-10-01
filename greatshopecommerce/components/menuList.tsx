@@ -59,7 +59,7 @@ const components: { title: string; href: string; description: string }[] = [
   }
 ]
 
-const  menuList = () => {
+const  MenuList = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
@@ -147,4 +147,4 @@ const ListItem = React.forwardRef<
 })
 ListItem.displayName = "ListItem"
 
-export default menuList;
+export default MenuList;
